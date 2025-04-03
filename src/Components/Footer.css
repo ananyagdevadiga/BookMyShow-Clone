@@ -1,0 +1,110 @@
+/* Footer Styles */
+footer {
+    background-color: #1c1c1c;
+    color: #888; /* Grey text */
+    font-size: 12px; /* Decreased text size */
+    padding: 40px 0; /* Added more padding */
+  }
+  
+  /* Top Section */
+  .footer-top {
+    border-bottom: 1px solid #333;
+    padding-bottom: 20px; /* Increased spacing */
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .footer-top p,
+  .footer-top a {
+    margin: 0;
+    font-weight: 500;
+    color: #888; /* Default grey */
+    transition: color 0.3s ease-in-out;
+    padding: 5px 0; /* Added padding for spacing */
+  }
+  
+  .footer-top p:hover,
+  .footer-top a:hover {
+    color: #fff; /* Turns white on hover */
+  }
+  
+  /* Middle Section */
+  .footer-middle {
+    padding: 30px 0; /* Increased spacing */
+  }
+  
+  .footer-middle h6 {
+    color: #aaa; /* Lighter grey for headings */
+    font-size: 14px; /* Slightly bigger */
+    font-weight: 600;
+    margin-bottom: 15px; /* More spacing */
+    text-transform: uppercase;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .footer-middle p,
+  .footer-middle a {
+    color: #888; /* Grey text */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    margin-bottom: 10px; /* Added spacing */
+    display: block; /* Makes each item take a full line */
+  }
+  
+  .footer-middle a:hover,
+  .footer-middle h6:hover,
+  .footer-middle p:hover {
+    color: #fff; /* Turns white on hover */
+    text-decoration: underline;
+  }
+  
+  /* Bottom Section */
+  .footer-bottom {
+    border-top: 1px solid #333;
+    padding-top: 20px; /* Increased spacing */
+    text-align: center;
+    font-size: 11px; /* Slightly bigger */
+    color: #777;
+  }
+  
+/* Social Media Icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* Increased space between icons */
+    margin-bottom: 20px; /* Extra space below */
+  }
+  
+  .social-icons a {
+    color: #888;
+    font-size: 28px; /* Increased icon size */
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+    padding: 0 15px; /* Added extra spacing around icons */
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.3); /* Enlarges on hover */
+    color: #fff; /* Turns white on hover */
+  }
+  
+  
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-middle {
+      text-align: center;
+    }
+  
+    .footer-middle h6 {
+      margin-top: 20px; /* Increased spacing */
+    }
+  
+    .footer-top p {
+      margin-bottom: 15px;
+    }
+  
+    .social-icons {
+      gap: 20px; /* Adjust spacing for smaller screens */
+    }
+  }
+  

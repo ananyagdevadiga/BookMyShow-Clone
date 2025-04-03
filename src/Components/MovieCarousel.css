@@ -1,0 +1,22 @@
+/* Fade transition effect */
+.carousel-item-next, 
+.carousel-item-prev, 
+.carousel-item.active {
+  transition: opacity 1s ease-in-out;
+  opacity: 0;
+}
+
+.carousel-item-next.carousel-item-left,
+.carousel-item-prev.carousel-item-right,
+.carousel-item.active {
+  opacity: 1;
+}
+
+/* Change height of carousel images */
+.carousel-image {
+    object-fit: cover;
+    height: 350px; /* Adjust this value to set your desired height */
+    /* border-radius: 20px; */
+    width: 500px;
+  }
+  
