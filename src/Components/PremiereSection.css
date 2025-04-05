@@ -1,0 +1,114 @@
+.premiere-wrapper {
+    background-color: #242848;
+    padding: 30px 130px 20px;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    margin-top: 30px;
+  }
+  
+  .premiere-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .premiere-logo {
+    height: 40px;
+  }
+  
+  .premiere-header h2 {
+    margin: 0;
+    font-size: 22px;
+    text-align: left;
+  }
+  
+  .premiere-header p {
+    margin: 2px 0 0;
+    font-size: 14px;
+    color: #ccc;
+    text-align: left;
+  }
+  
+  .premiere-scroll-container {
+    position: relative;
+  }
+  
+  .premiere-cards {
+    display: flex;
+    gap: 18px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding-bottom: 10px;
+  }
+  
+  .premiere-cards::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .premiere-card {
+    min-width: 200px;
+    width: 200px;
+    flex-shrink: 0;
+    background-color: transparent;
+  }
+  
+  .image-wrap {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .image-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .info {
+    margin-top: 8px;
+    text-align: left;
+  }
+  
+  .info h4 {
+    font-size: 14px;
+    margin: 0 0 4px;
+    color: white;
+  }
+  
+  .info p {
+    font-size: 13px;
+    color: #ccc;
+    margin: 0;
+  }
+  
+  .scroll-btn {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .scroll-btn:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .scroll-btn.left {
+    left: -15px;
+  }
+  
+  .scroll-btn.right {
+    right: -15px;
+  }
+  

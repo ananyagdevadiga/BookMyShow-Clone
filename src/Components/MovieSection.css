@@ -1,0 +1,125 @@
+.movie-section-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0 16px;
+  }
+  
+  .movie-section-container {
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  
+  .movie-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 20px 0;
+  }
+  
+  .movie-list {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding-bottom: 10px;
+    scrollbar-width: none;
+  }
+  
+  .movie-list::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .movie-card {
+    width: 230px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    padding: 0;
+  }
+  
+  .movie-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .movie-title {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+  }
+  
+  .movie-genre {
+    font-size: 14px;
+    color: grey;
+    text-align: left;
+    margin-top: -6px;
+    margin-bottom: 80px;
+  }
+  
+  .movie-info {
+    padding: 8px;
+    margin-top: 2px;
+  }
+  
+  .scroll-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    background: black;
+    color:black;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .scroll-btn:hover {
+    background: black;
+  }
+  
+  .left-btn {
+    left: 0;
+  }
+  
+  .right-btn {
+    right: 0;
+  }
+  
+  /* Responsive Tweaks */
+  @media (max-width: 768px) {
+    .movie-card {
+      width: 180px;
+    }
+  
+    .movie-image {
+      height: 280px;
+    }
+  
+    .movie-genre {
+      margin-bottom: 60px;
+    }
+  
+    .scroll-btn {
+      width: 32px;
+      height: 32px;
+    }
+  
+    .movie-section-container {
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+  }
+  

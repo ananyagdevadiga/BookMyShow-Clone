@@ -1,0 +1,20 @@
+.banner-wrapper {
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-container {
+  padding: 0; /* Removes Bootstrap's default container padding */
+  display: flex;
+  justify-content: center;
+}
+
+.banner-image {
+  max-width: 1220px;
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}

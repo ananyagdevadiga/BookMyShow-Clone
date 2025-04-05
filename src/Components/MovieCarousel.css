@@ -1,0 +1,28 @@
+/* Wrapper to control max width and center alignment */
+.carousel-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+/* Transition fade effect */
+.carousel-item-next, 
+.carousel-item-prev, 
+.carousel-item.active {
+  transition: opacity 1s ease-in-out;
+  opacity: 0;
+}
+
+.carousel-item-next.carousel-item-left,
+.carousel-item-prev.carousel-item-right,
+.carousel-item.active {
+  opacity: 1;
+}
+
+/* Custom image styling */
+.carousel-image {
+  object-fit: cover;
+  height: 350px;
+  width: 100%;
+  border-radius: 20px;
+}
